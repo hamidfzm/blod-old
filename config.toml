@@ -4,3 +4,8 @@ title = "Hamid FzM Blog"
 publishDir = "docs"
 theme = "tachyons"
 watch = true
+
+[params]
+  website = "http://hamidfzm.com"
+  Twitter = "https://twitter.com/hamidfzm"
+  Github = "https://github.com/hamidfzm"

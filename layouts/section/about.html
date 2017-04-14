@@ -1,0 +1,14 @@
+{{ partial "header.html" . }}
+
+<main class="pal">
+
+    <h1>About me</h1>
+    {{ .Content }}
+
+    <a href="{{ .Site.Params.Website }}"><span class="js-geomicon geomicon" data-icon="dribbble"></span>Website</a><br/>
+    <a href="{{ .Site.Params.Twitter }}"><span class="js-geomicon geomicon" data-icon="twitter"></span>Twitter</a><br/>
+    <a href="{{ .Site.Params.Github }}"><span class="js-geomicon geomicon" data-icon="github"></span>Github</a><br/>
+
+</main>
+
+{{ partial "footer.html" . }}
