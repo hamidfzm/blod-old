@@ -3,3 +3,4 @@ languageCode = "en-us"
 title = "Hamid FzM Blog"
 publishDir = "docs"
 theme = "tachyons"
+watch = true
