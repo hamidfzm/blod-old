@@ -11,7 +11,7 @@ github_username:  hamidfzm
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-minimal
 livereload: true
 dir: rtl
 plugins:
